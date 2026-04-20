@@ -1,0 +1,23 @@
+[
+  "tests/test_database.py::TestGetSupabaseClient::test_get_supabase_client_with_credentials",
+  "tests/test_database.py::TestGetSupabaseClient::test_get_supabase_client_without_credentials",
+  "tests/test_database.py::TestSaveResultsToSupabase::test_save_results_to_supabase_insert_failure",
+  "tests/test_database.py::TestSaveResultsToSupabase::test_save_results_to_supabase_missing_keys",
+  "tests/test_database.py::TestSaveResultsToSupabase::test_save_results_to_supabase_no_predictions",
+  "tests/test_database.py::TestSaveResultsToSupabase::test_save_results_to_supabase_success",
+  "tests/test_extractor.py::TestExtractor::test_extract_data",
+  "tests/test_extractor.py::TestExtractor::test_extract_data_with_end_date",
+  "tests/test_model.py::TestProphetModel::test_fit",
+  "tests/test_model.py::TestProphetModel::test_fit_with_holidays",
+  "tests/test_model.py::TestProphetModel::test_fit_with_seasonality_config",
+  "tests/test_model.py::TestProphetModel::test_get_us_trading_holidays",
+  "tests/test_model.py::TestProphetModel::test_predict_for_tickers",
+  "tests/test_model.py::TestProphetModel::test_predict_next",
+  "tests/test_optimiser.py::TestPortfolioOptimisation::test_calculate_mean_variance",
+  "tests/test_optimiser.py::TestPortfolioOptimisation::test_optimize_portfolio_mean_variance_basic",
+  "tests/test_optimiser.py::TestPortfolioOptimisation::test_optimize_portfolio_mean_variance_with_minimum_allocation",
+  "tests/test_processor.py::TestProcessor::test_append_predictions",
+  "tests/test_processor.py::TestProcessor::test_append_predictions_preserves_original_data",
+  "tests/test_processor.py::TestProcessor::test_collect_recent_prices",
+  "tests/test_processor.py::TestProcessor::test_preprocess_data"
+]
